@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0      ;
+}
+body{
+    font-family: monospace; 
+}
+.topnav {
+    background-color: rgb(1, 77, 77);
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: monospace;
+  }
+  
+  .topnav a:hover {
+    background-color: white;
+    color: rgb(1, 77, 77);
+  }
+  
+.topnav a.active {
+    background-color:white;
+    color: rgb(1, 77, 77);
+  }
+
+a{
+    text-decoration: none;
+    color: white ;
+}
+
+.container{
+   background-color: rgb(1, 77, 77);
+   color: white;
+   font-family: monospace;
+   padding: 5px;
+   display: flex;
+   padding: 1%;
+}
+
+.con1{
+    background-color: whitesmoke;
+    color: rgb(15, 15, 15);
+}
+
+.container3{
+    background-color: rgb(1, 77, 77);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.cap1{
+    color: black;
+}
+.text1{
+    margin: 2%;
+    font-size: large;
+}
+.tablecaption, .tagcaption, .formheader, .wrapheader, .meterhead, .helpheader, .socialhead{
+    text-align: center;
+    margin: 5px;
+    text-transform: uppercase;
+}
+.table{
+    font-size: large;
+    background-color: rgb(1, 77, 77);
+    color: white;
+    padding: 10px;
+}
+.taglist{
+    background-color: rgb(234, 240, 240);
+}
+
+.list, .meterbody{
+    list-style: circle;
+    margin-left: 50px;
+    font-size :x-large;
+    padding: 10px;
+}
+
+.formbody{
+    padding: 20px;
+    font-size: large;
+}
+
+input[type=text], input[type=email], select, input[type=button], input[list=items]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: rgb(1, 77, 77);
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
+
+#select, #submit{
+    color: white;
+}
+
+::placeholder{
+    color: white;
+}
+
+.download{
+    background: rgb(1, 77, 77);
+    text-align: center;
+    padding: 10px 0 5px 0;
+}
+
+#a{
+    text-transform: uppercase;
+}
+.wrapper{
+    padding: 5px;
+}
+
+.helpbody, .socialbody, .footerbody{
+    font-size: large;
+    background-color: rgb(1, 77, 77);
+    color: white;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+

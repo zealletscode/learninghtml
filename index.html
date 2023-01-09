@@ -10,23 +10,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML CLASS</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div>
-    <!-- this is header  -->
+    <!-- navbar -->
+    <nav>
+        <div class="topnav">
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <a href="#news">News</a>
+            <a class="active" href="#home">Home</a>
+          </div>
+    </nav>
     <header>
-        <h1 style="text-align: center ;">
-            Lets Briefly Discuss A Bit About Blockchain and Cryptocurrency
+        <h1 style="text-align: center ;" class="cap1">
+            LETS BRIEF DISCUSS A BIT ABOUT BLOCKCHAIN AND CRYPTOCURRENCIES
         </h1>
     </header>
-    <!-- this is heading h1 -->
-    <h1>What is blockchain ?</h1>
-
-    <!-- this is a image tag  -->
+<div class="container">
+     <!-- this is header  -->
+    <div class="image1">
+        <h2>What is Blockchain</h2>
+        <!-- this is a image tag  -->
     <img src="blockchain.jpg" alt="blockchain">
+    
+    </div>
 
-    <!-- this is a paragraph -->
-    <p>A blockchain is a decentralized, 
+  <div class="text1">
+      <!-- this is a paragraph -->
+      <p>A blockchain is a decentralized, 
         distributed ledger that records transactions on multiple computers so that the record cannot be altered retroactively without 
         the alteration of all subsequent blocks and the consensus of the network. Each block in the chain contains a record of multiple transactions,
          and once data has been recorded on a block, it cannot be altered.
@@ -40,22 +52,22 @@
             In summary, a blockchain is a digital, decentralized ledger of transactions that is secure and transparent,
              and it allows multiple parties to reach consensus on the state of a shared digital history.
         </p>
+  </div>
        
 
         <hr>
             <!--  this is horizontal line -->
 </div>
 
-<div>
-             <!-- this is header h2 -->
-        <h2>
-            What is cryptocurrency ?
-        </h2>
-
-        <!-- this is image tag -->
+<div class="container con1">
+        <div class="image2">
+            <h2>
+                What is Cryptocurrency
+            </h2>
         <img src="crypto.jpg" alt="crypto" >
-
+        </div>
           <!-- this is paragraph -->
+       <div class="text1">
         <p>
             A cryptocurrency is a digital or virtual currency that uses cryptography for 
             security and is not backed by any government or central authority,
@@ -73,29 +85,31 @@
             They can be used to purchase goods and services, but their use is not yet widespread. The value of cryptocurrencies is highly volatile and the market is largely unregulated, 
             so it is important to be aware of the risks before investing in them.
         </p>
-
-        <hr>
-            <!--  this is horizontal line -->
-
-            <h3>
-                So if you want to know more about Blockcahin and cryptocurrencies
-            </h3>
+       </div>
+</div>
+<hr>
+<!--  this is horizontal line -->
+        <div class="container3">
+            
+        <h2 class="con3">
+            So if you want to know more about Blockcahin and cryptocurrencies <br>
             <em>
                 Follow the link Below to learn more:
-            </em>
-            <i>
-                <a href="https://www.kaspersky.com/resource-center/definitions/what-is-cryptocurrency">Learn More!!</a>
-            </i>
-
-            <hr>
-            <!--  this is horizontal line -->
-</div>
+            </em> 
+        </h2>
+        
+        <br>
+        <br>
+        <h3>
+            &#128073;  <a href="https://www.kaspersky.com/resource-center/definitions/what-is-cryptocurrency">LEARN MORE!</a>
+        </h3>
+        </div>
 
             <!-- This is a table tag -->
-            <h1>Cryptocurrency Name, prices and Market Cap
+            <h1 class="tablecaption">Cryptocurrency Name | prices | MarketCap
                 &#128516;
             </h1>
-<div>
+<div class="table">
 <table style="width:100%">
     <tr>
         <th>Cryptocurrencies</th>
@@ -142,46 +156,47 @@
 
 <!-- // end of table tag -->
        <hr> 
-          <!-- this is horizontal tag -->
 
             <!-- this is a list tag -->
-        <div>
-          <h2>
+        <div class="taglist">
+          <h1 class="tagcaption">
             These are the List of Cryptocurrencies with Great potential
             &#128512;
-          </h2>
-          <ul>
-            <li>
-                Bitcoin
-            </li>
-            <li>
-                Ethereum
-            </li>
-            <li>
-                Axie infinity
-            </li>
-            <li>
-                Jiggytoken
-            </li>
-            <li>
-                BNB
-            </li>
-            <li>
-                Mana
-            </li>
-            <li>
-                SandBox
-            </li>
-            <li>
-                Matic
-            </li>
-            <li>
-                Solana
-            </li>
-            <li>
-                Litecoin etc.
-            </li>
-          </ul>
+          </h1>
+        <section class="list">
+            <ul>
+                <li>
+                    &#128073; Bitcoin
+                </li>
+                <li>
+                    &#128073;  Ethereum
+                </li>
+                <li>
+                    &#128073;  Axie infinity
+                </li>
+                <li>
+                    &#128073;  Jiggytoken
+                </li>
+                <li>
+                    &#128073;  BNB
+                </li>
+                <li>
+                    &#128073;  Mana
+                </li>
+                <li>
+                    &#128073; SandBox
+                </li>
+                <li>
+                    &#128073; Matic
+                </li>
+                <li>
+                    &#128073;  Solana
+                </li>
+                <li>
+                    &#128073;  Litecoin etc.
+                </li>
+              </ul>
+        </section>
      </div>
      <!-- //end -->
 
@@ -191,10 +206,10 @@
      <div>
         <!-- this is form tag -->
         <form action="">
-            <h2>
-                Blockchain Application form
-            </h2>
-            <div>
+            <h1 class="formheader">
+                Blockchain Application form  &#128522;
+            </h1>
+            <div class="formbody">
                 <!-- firstname -->
                 <label for="firstname">Firsname:</label>
                 <input type="text" placeholder="firstname" required>
@@ -238,7 +253,7 @@
                 <label for="niche"> What niche on the Blockchain would you love to learn?  &#128516;</label> 
                 <br>
                 <br>
-                <select name="" id="">
+                <select name="" id="select">
                     <option value="">Blockchain Developer</option>
                     <option value="">Defi</option>
                     <option value="">NFTS</option>
@@ -248,7 +263,7 @@
                 <br>
                 <br>
                 <!-- submit form -->
-                <input type="button" value="submit">
+                <input type="button" id="submit" value="submit">
             </div>
         </form>
      </div>
@@ -258,18 +273,20 @@
          <!-- new links -->
       <hr>
 
-      <img src="btc.jpg" loading="lazy" alt="btc">
-      <br>
-      <br>
-      <a href="path/to/file" download="">
-          click here to download the picture above! &#128512;
-        </a>
+     <section class="download">
+        <img src="btc.jpg" loading="lazy" alt="btc">
+        <br>
+        <br>
+        <a href="btc.jpg" download="" id="a">
+            click here to download the picture above!
+          </a>
+     </section>
         <!-- // -->
 
         <!-- html wrapper -->
         <div class="wrapper">
-            <h1>
-                Search the six most Popular Cryptocurrency
+            <h1 class="wrapheader">
+                Search the six most Popular Cryptocurrency &#128522;
             </h1>
             <input list="items">
             <datalist id="items">
@@ -284,8 +301,8 @@
         <!-- // -->
 
         <!-- meter rate -->
-        <section>
-            <h3>See The Rate of Our Favourite Cryptocurrencies &#128512;</h3>
+        <h1 class="meterhead">See The Rate of Our Favourite Cryptocurrencies</h1>
+        <section class="meterbody">
             <label for="bitcoin">Bitcoin</label>
             <meter id="bitcoin" min="0" max="100" low="30" high="75" optimum="80" value="100"></meter>
             <br>
@@ -312,59 +329,70 @@
         <!-- / -->
 
         <!-- for help -->
+        <h1 class="helpheader">
+            So Guys For Help or Assisant
+        </h1>
         <section>
-            <h3>
-                So Guys For Help or Assisant
-            </h3>
-            <p>
-                Send us an mail with the link below! &#128512; <br>
-            <a href="mailto:skyprinceziggy9@gmail.com?subject: Make your brief, thank You!">Email Us!</a>
-            </p>
-            <h3>
-                Contact Us
-            </h3>
-            <a href="tel: +2348167042409">Call Us</a> &#128512;
-            <h3>
-                Drop a message for Us
-            </h3>
-            <a href="sms:+2348167042409">Send sms</a> &#128512;
+            <div class="helpbody">
+                <h3>
+                    &#128073;  Send us an mail with the link below<br>
+                </h3>
+                <p>
+                <a href="mailto:skyprinceziggy9@gmail.com?subject: Make your brief, thank You!">Email Us</a>
+                </p> <br>
+                <h3>
+                    &#128073;  Contact Us
+                </h3>
+                <a href="tel: +2348167042409">Call Us</a>
+                <h3> <br>
+                    &#128073;  Drop a message for Us
+                </h3>
+                <a href="sms:+2348167042409">Send SMS</a>
+            </div>
         </section>
         <!-- // -->
 
         
      </div>
      <hr>
+
      <!-- social sharing cheat sheet -->
-     <h3>
-        For Our social Medias
-     </h3>
-     <a href="https://www.facebook.com/sharer/sharer.php?u=www.facebook.com">
-        Facebook
-     </a>
-     <br>
-     <br>
-     <a href="https://www.linkedin.com/shareArticle?mini=true&url=www.whatsapp.com">
-        Whatsapp
-     </a>
-     <br>
-     <br>
-     <a href="https://www.linkedin.com/shareArticle?mini=true&url=www.whatsapp.com">
-        LinkedIn
-     </a>
-     <br>
-     <br>
-     <a href="https://twitter.com/intent/tweet?url=www.twitter.com&text=">
-        Twitter
-     </a>
-     <br>
-     <br>
-     <a href="https://www.linkedin.com/shareArticle?mini=true&url=www.whatsapp.com">
-        Discord
-     </a>
+     <h1 class="socialhead">
+        For Our Social Media
+     </h1>
+
+     <div class="socialbody">
+
+        <a href="https://www.facebook.com/sharer/sharer.php?u=www.facebook.com">
+            Facebook
+         </a>
+         <br>
+         <br>
+         <a href="https://www.linkedin.com/shareArticle?mini=true&url=www.whatsapp.com">
+            Whatsapp
+         </a>
+         <br>
+         <br>
+         <a href="https://www.linkedin.com/shareArticle?mini=true&url=www.whatsapp.com">
+            LinkedIn
+         </a>
+         <br>
+         <br>
+         <a href="https://twitter.com/intent/tweet?url=www.twitter.com&text=">
+            Twitter
+         </a>
+         <br>
+         <br>
+         <a href="https://www.linkedin.com/shareArticle?mini=true&url=www.whatsapp.com">
+            Discord
+         </a>
+     </div>
      <!-- // -->
      <hr>
 
-          <footer>
+
+
+          <footer class="footerbody">
           <p style="text-align: center">copyright 2023</p>
           </footer>          
 </body>
